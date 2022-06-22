@@ -1,14 +1,14 @@
 # bitcoin-quote
 
-Script that will inform the main bitcoin information at the moment.
+Script que informará as principais informações do bitcoin no momento.
 
-Based on the API "https://www.mercadobitcoin.net".
+Baseado na API "https://www.mercadobitcoin.net".
 
-The script accepts two parameters on execution:
+O script aceita dois parâmetros na execução:
 
-1st. Waiting time until next request(default 2).
+1º. Tempo de espera até a próxima solicitação (padrão 2).
 
-2nd. Number of requests the script will make (default 5).
+2º. Número de solicitações que o script fará (padrão 5).
 
-So the execution will look like this:
+Então a execução ficará assim:
 `./execute.sh 5 2`
